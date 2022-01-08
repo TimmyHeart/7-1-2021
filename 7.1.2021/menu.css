@@ -24,12 +24,15 @@
     line-height: 60px;
     margin: 0px;
     background-color: #fff;
-    border-radius: 10px 10px 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
     padding-left: 10px;
 }
 #top-menu{
     background-color: rgba(255, 255, 255, 0.8);
-    z-index:60px;
+    z-index:60px;    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 #top-menu ul{
     padding: 0px;
@@ -49,12 +52,16 @@
     color: #984d17;
 }
 .col-right{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     width: 60%;
     background-color: rgba(255, 255, 255, 0.8);
     margin-bottom: 50px;
-    margin-left: 32px;
+    margin-left: 34px;
 }
-.col-right #main-menu .main-title{
+.col-right #main-menu .main-title{    
     margin-right: 15px 0 5px;
 }
 .col-right .content-title{
