@@ -1,0 +1,31 @@
+#main{
+    background-image:url(f45.jpg);
+            background-attachment:fixed;
+            background-size: 100% 100%;
+            margin: 0 auto !important;
+            padding: 90px 110px !important;
+            z-index:2;
+            min-height: 595px;
+}
+.wapper{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-top: 135px;
+}
+.wapper .page_title{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #E53328;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    width: 470px;
+    padding-left: 15px;
+    border-radius: 7px 7px 7px 7px;   
+}
+.content-body{
+position: relative;
+margin-top: 10px;
+display: flex;
+}
